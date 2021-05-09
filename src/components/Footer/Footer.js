@@ -1,12 +1,12 @@
-//import './App.css';
+import './Footer.css';
 
 function Footer() {
     return (
-      <div>
+      <footer>
           <p>
               Footer kommer her
           </p>
-      </div>
+      </footer>
     );
   }
   

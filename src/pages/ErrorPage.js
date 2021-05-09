@@ -5,12 +5,12 @@ import NavBar from '../components/NavBar/NavBar';
 
 function ErrorPage() {
   return (
-    <div className="App">
+    <main>
     <NavBar />
     <p>Siden ble ikke funnet</p>
     
     <Footer />
-    </div>
+    </main>
   );
 }
 

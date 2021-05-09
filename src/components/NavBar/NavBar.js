@@ -1,11 +1,11 @@
-//import './App.css';
+import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 function NavBar() {
   return (
     <nav>
-        <p>
-            Kommer mer her
-        </p>
+        <p>Tema 16</p>
+        <Link to="/">🏠</Link>
     </nav>
   );
 }

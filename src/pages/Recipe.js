@@ -5,12 +5,12 @@ import NavBar from '../components/NavBar/NavBar';
 
 function Recipe() {
   return (
-    <div className="App">
+    <main>
     <NavBar />
     <p>Oppskriftssiden</p>
     
     <Footer />
-    </div>
+    </main>
   );
 }
 

@@ -6,12 +6,12 @@ import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
-    <NavBar />
-    <p>Hello Word</p>
-    <Link to={"/recipe"}>Trykk her</Link>
-    <Footer />
-    </div>
+    <main>
+      <NavBar />
+      <p>Hello Word</p>
+      <Link to={"/recipe"}>Trykk her</Link>
+      <Footer />
+    </main>
   );
 }
 
