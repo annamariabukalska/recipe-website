@@ -4,9 +4,9 @@ import './NavBar.css';
 function NavBar() {
   return (
     <nav>
-        <Link to="/">Oppskrifter</Link>
+        <Link to="/recipe">Oppskrifter</Link>
         <Link to="/">🏠</Link>
-        <p>Om ideen</p>
+        <Link to="/">Om ideen</Link>
     </nav>
   );
 }

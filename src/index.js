@@ -5,9 +5,11 @@ import App from './App';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Recipe from './pages/Recipe';
 import ErrorPage from './pages/ErrorPage';
+import NavBar from './components/NavBar/NavBar';
 
 ReactDOM.render(
   <BrowserRouter>
+  <NavBar />
     <Switch>
       <Route path="/" component={App} exact />
       <Route path="/recipe" component={Recipe} />

@@ -1,35 +1,24 @@
 import kitchen from './resources/kitchen.jpg';
-import { Link } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer/Footer';
-import NavBar from './components/NavBar/NavBar';
 import CategoryCard from './components/CategoryCard/CategoryCard';
 
 function App() {
   return (
-    <main>
-      <NavBar />
-      <Link to={"/recipe"}>Trykk her</Link>
+    <main>      
+    <img src={kitchen} alt="Kitchen" className="picture"/>
 
-    <img src={kitchen} alt="Kitchen"/>
-
-    <CategoryCard title="17.mai"/>
-    <CategoryCard title="Grill"/>
-    <CategoryCard title="Piknik"/>
-
-{
-  /*
-
-      <CategoryCard title="17. mai" color="black"/>
-      <CategoryCard title="Jul" image="...."/>
-      <CategoryCard title="Grill"/>
-*/
-}
-
-
-<p>Siste oppskrifter</p>
-
-      <Footer />
+    <div className="content-inset">
+      <div className="category-grid">
+        <CategoryCard title="17.mai"/>
+        <CategoryCard title="Grill"/>
+        <CategoryCard title="Piknik"/>
+        <CategoryCard title="Jul"/>
+        <CategoryCard title="Påske"/>
+      </div>
+    <p>Siste oppskrifter</p>
+  </div>
+    <Footer />
     </main>
   );
 }
