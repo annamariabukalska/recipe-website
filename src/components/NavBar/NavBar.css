@@ -1,3 +1,10 @@
 nav {
     background: lightblue;
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr repeat(3, auto) 1fr;
+    grid-column-gap: 5px;
+    justify-items: center;
+    font-size: 1rem;
 }
