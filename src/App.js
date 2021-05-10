@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
-// import Card from './components/Card/Card';
+import CategoryCard from './components/CategoryCard/CategoryCard';
 
 function App() {
   return (
@@ -12,12 +12,17 @@ function App() {
       <Link to={"/recipe"}>Trykk her</Link>
 
     <img src={kitchen} alt="Kitchen"/>
+
+    <CategoryCard title="17.mai"/>
+    <CategoryCard title="Grill"/>
+    <CategoryCard title="Piknik"/>
+
 {
   /*
 
-      <Card title="17. mai" color="black"/>
-      <Card title="Jul" image="...."/>
-      <Card title="Grill"/>
+      <CategoryCard title="17. mai" color="black"/>
+      <CategoryCard title="Jul" image="...."/>
+      <CategoryCard title="Grill"/>
 */
 }
 
