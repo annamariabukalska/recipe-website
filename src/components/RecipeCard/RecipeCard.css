@@ -1,0 +1,29 @@
+.recipe-card {
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+	padding: 46px 24px;
+	background: white;
+	overflow: hidden;
+	box-shadow: 0px 1px 9px #00000036;
+	border-radius: .5rem;
+	text-align: end;
+	transition: 0.2s all;
+}
+
+.recipe-card:hover {
+	cursor: pointer;
+	opacity: 0.75;
+}
+
+.recipe-title {
+	font-size: 1.5rem;
+	text-align: left;
+    margin: 6px;
+}
+
+.recipe-subtitle {
+    font-size: 1rem;
+    text-align: left;
+    margin: 6px;
+}

@@ -4,11 +4,11 @@ import './NavBar.css';
 function NavBar() {
   return (
     <nav>
-        <Link to="/recipe" className="nav-link">Oppskrifter</Link>
+        <Link to="/" className="nav-link">Oppskrifter</Link>
         <Link to="/">
-          <img src="images/icon-teapot.png" alt="Oppskrift"/>
+          <img src="images/icon-teapot.png" alt="Oppskrift" className="logo"/>
         </Link>
-        <Link to="/" className="nav-link">Om ideen</Link>
+        <Link to="/about" className="nav-link">Om ideen</Link>
     </nav>
   );
 }
