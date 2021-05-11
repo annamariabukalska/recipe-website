@@ -11,7 +11,7 @@ function App() {
       <div className="category-grid">
         <CategoryCard 
           title="17. mai" 
-          imageUrl="kitchen.jpg" 
+          imageUrl="icon-toast.png" 
         />
 
         <CategoryCard title="Grill"/>

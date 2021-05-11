@@ -1,13 +1,21 @@
 .category-card {
-	padding: 0 32px;
+	display: flex;
+	align-items: center;
+	padding: 16px 24px;
 	background: #FEE2C9;
 	overflow: hidden;
-	box-shadow: 0px 1px 5px #00000014;
+	box-shadow: 0px 1px 5px #d6beaa54;
 	border-radius: .5rem;
-	font-size: 10px;
 	text-align: end;
+	transition: 0.2s all;
 }
 
 .category-card:hover {
 	cursor: pointer;
+	opacity: 0.75;
+}
+
+.category-title {
+	font-size: 1.5rem;
+	text-align: left;
 }
