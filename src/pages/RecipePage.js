@@ -1,11 +1,11 @@
-  import Footer from '../components/Footer/Footer';
+import Footer from '../components/Footer/Footer';
 import IngredientsList from '../components/IngredientsList/IngredientsList';
-  import './RecipePage.css';
+import './RecipePage.css';
 
   function RecipePage() {
     return (
       <main>
-      <img src="images/recipe-example.jpg" alt="Oppskrift" className="recipe-large-image"/>
+      <img src="images/pavlova.jpg" alt="Oppskrift" className="recipe-large-image"/>
       <div className="content-inset">
         <h1>Pavlova</h1>
         <h2>⏰ 3 timer</h2>
