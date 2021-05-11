@@ -1,4 +1,3 @@
-import kitchen from './resources/kitchen.jpg';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import CategoryCard from './components/CategoryCard/CategoryCard';
@@ -6,11 +5,15 @@ import CategoryCard from './components/CategoryCard/CategoryCard';
 function App() {
   return (
     <main>      
-    <img src={kitchen} alt="Kitchen" className="picture"/>
+      <img src={"images/kitchen.jpg"} alt="Kitchen" className="picture"/>
 
     <div className="content-inset">
       <div className="category-grid">
-        <CategoryCard title="17.mai"/>
+        <CategoryCard 
+          title="17. mai" 
+          imageUrl="kitchen.jpg" 
+        />
+
         <CategoryCard title="Grill"/>
         <CategoryCard title="Piknik"/>
         <CategoryCard title="Jul"/>

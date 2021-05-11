@@ -1,10 +1,26 @@
 nav {
     background: lightblue;
     display: grid;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     grid-template-columns: 1fr repeat(3, auto) 1fr;
     grid-column-gap: 5px;
     justify-items: center;
     font-size: 1rem;
 }
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-column-start: 5;
+    margin-left: auto;
+}
+
+a {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.2s all;
+}
+

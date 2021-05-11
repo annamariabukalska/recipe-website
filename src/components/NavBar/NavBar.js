@@ -3,9 +3,11 @@ import './NavBar.css';
 
 function NavBar() {
   return (
-    <nav>
+    <nav className="navbar">
         <Link to="/recipe">Oppskrifter</Link>
-        <Link to="/">🏠</Link>
+        <Link to="/">
+        <img src="images/icon-teapot.png" alt="Oppskrift"/>
+        </Link>
         <Link to="/">Om ideen</Link>
     </nav>
   );
