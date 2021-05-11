@@ -13,7 +13,7 @@ function Footer() {
   }
 
   function openPinterest() {
-    window.open('https:/pinterest.com/annamariabukalska')
+    window.open('https://no.pinterest.com/annamariabukals/')
   }
 
   export default Footer;
